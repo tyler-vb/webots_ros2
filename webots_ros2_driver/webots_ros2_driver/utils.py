@@ -81,7 +81,7 @@ class WebotsVersion:
 
 
 def is_wsl():
-    return 'microsoft-standard' in uname().release
+    return False
 
 
 def get_wsl_ip_address():
